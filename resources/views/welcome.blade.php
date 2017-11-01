@@ -74,7 +74,7 @@
 
                 <div class="links">
                     <a href="https://marguspala.com">Author</a>
-                    <a href="https://company-data.marguspala.com/api/company?name=it+garage">Example API call</a>
+                    <a href="https://company-data.marguspala.com/api/company?name=smart+id">Example API call</a>
                     <a href="https://github.com/smartman/estonian-company-data-api">GitHub</a>
                 </div>
             </div>

@@ -28,7 +28,15 @@ php artisan queue:work
 
 Supervisor configuration is described at [https://laravel.com/docs/5.5/queues#supervisor-configuration](https://laravel.com/docs/5.5/queues#supervisor-configuration)
 
-Example of this application is running on https://company-data.marguspala.com
+
+## API documentation
+
+Make the call to
+<pre>[base_url]/api/company?name=[name]</pre>
+Example call
+
+[https://company-data.marguspala.com/api/company?name=smart+id](https://company-data.marguspala.com/api/company?name=smart+id) 
+
 
 ## License
 
