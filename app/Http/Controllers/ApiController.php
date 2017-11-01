@@ -27,6 +27,13 @@ class ApiController extends Controller {
 		                    ->limit( 5 )
 		                    ->get();
 
-		return response()->json( $companies );
+		$response = response()->json( $companies );
+
+		//Support also jsonp responses
+		if ( $request->callback ) {
+			$response->withCallback( $request->callback );
+		}
+
+		return $response;
 	}
 }
