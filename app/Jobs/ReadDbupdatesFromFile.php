@@ -16,6 +16,8 @@ class ReadDbupdatesFromFile implements ShouldQueue {
 	protected $csvFileName;
 	protected $header;
 
+	public $tries=10;
+
 	public function __construct( $fileLocation, $csvFileName, $header ) {
 		$this->fileLocation = $fileLocation;
 		$this->csvFileName  = $csvFileName;

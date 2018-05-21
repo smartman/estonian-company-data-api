@@ -14,6 +14,8 @@ class DbUpdateJob implements ShouldQueue {
 
 	protected $records;
 
+    public $tries=10;
+
 	public function __construct( $records ) {
 		$this->records = $records;
 	}
