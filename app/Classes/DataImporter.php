@@ -19,7 +19,6 @@ class DataImporter {
 	}
 
 	public function updateData() {
-
 		$fileName = $this->downloadData();
 		if ( $fileName ) {
 			$this->scheduleUpdateDb( $fileName );
